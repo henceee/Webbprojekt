@@ -1,0 +1,548 @@
+
+
+#container
+{
+    width: 100%;
+   
+}
+
+
+
+#mainhead img
+{
+   float: left;
+   background-image: url(../pics/header.gif);
+   width: 76.5%;
+   max-width: 860px;
+   min-width: 100px;
+-webkit-box-shadow: 10px 8px 8px -8px black;
+-moz-box-shadow: 10px 8px 8px -8px black;
+-o-box-shadow: 10px 8px 8px -8px black;
+    
+    
+}
+
+
+
+/* Banners */
+
+#banners
+{
+    float: left;
+    margin-bottom: 10%;
+    width: 13%;
+    margin-right: 1%;
+    
+    
+    
+    
+}
+
+
+
+.headbanner a
+{
+    width: 100%;
+    height: 300px;
+    background: url("../pics/apul.gif") no-repeat; 
+    margin-bottom: 10%;
+    text-indent: -9999px;
+    display: block;
+}
+
+.sidebanner1 a
+{
+    background: url("../pics/fukitol.gif") no-repeat;
+    width: 100%;
+    height: 300px;
+
+    display: block;
+    text-indent: -9999px;
+    
+    
+}
+
+.contactmargin
+{
+    margin-top: 50%;
+}
+
+
+
+.sidebanner2 a
+{
+    width: 100%;
+    height: 300px;
+    background: url("../pics/mcdunalds.gif") no-repeat;
+    text-indent: -9999px;
+    margin-top: 10%;
+
+    
+    
+    display: block;
+   
+}
+
+.sidebanner3 a
+{
+    width: 100%;
+    height: 200px;
+    background: url("../pics/najk.gif") no-repeat;
+    text-indent: -9999px;
+    margin-top: 10%;
+
+     
+      display: block;
+      
+}
+
+
+
+main
+{
+    
+    width: 76.5%;
+    max-width: 860px;
+    background-color: #EDEBEB;
+    float: left;
+    margin-top: 10px;
+    -webkit-box-shadow: 10px 8px 8px -8px black;
+    -moz-box-shadow: 10px 8px 8px -8px black;
+    -o-box-shadow: 10px 8px 8px -8px black;
+}
+
+
+/*navigationen */
+
+nav
+{
+    float: left;
+    margin-bottom: -1%;
+    width: 80%;
+    margin-top: -10px;
+    padding: 0 0 10px 0;
+    margin-left: -40px;
+    
+}
+
+
+ 
+
+/*sprites */
+
+li.sprite
+{
+    float: left;
+    display: inline;
+    overflow: hidden;
+}
+
+
+
+li.sprite a
+{
+    display: block;
+    text-indent: -9999px;
+    background: url("../pics/sprite6.gif") 0 0 no-repeat;
+    float: left;
+    
+}
+
+
+
+li.home a
+{
+    width: 215px;
+    min-width: 10px;
+    height: 60px;
+    background-position: top left;
+    -webkit-box-shadow: 10px 8px 8px -8px black;
+    -moz-box-shadow: 10px 8px 8px -8px black;
+    -o-box-shadow: 10px 8px 8px -8px black;
+}
+
+li.home a:hover
+{
+    background-position: 0 -60px;
+    -webkit-transition: height 2s;
+    height: 60.8px;
+    overflow: hidden;
+}
+
+li.releases a
+
+{
+    width: 215px;
+    height: 60px;
+    background-position: -230px 0;
+    -webkit-box-shadow: 10px 8px 8px -8px black;
+    -moz-box-shadow: 10px 8px 8px -8px black;
+    -o-box-shadow: 10px 8px 8px -8px black;
+}
+
+li.releases a:hover
+
+{
+    
+    background-position: -230px -60px;
+    -webkit-transition: height 1s;
+    height: 60.8px;
+    overflow: hidden;
+}
+
+li.videos a
+
+{
+    width: 215px;
+    height: 60px;
+    background-position: -460px 0;
+     -webkit-box-shadow: 10px 8px 8px -8px black;
+    -moz-box-shadow: 10px 8px 8px -8px black;
+    -o-box-shadow: 10px 8px 8px -8px black;
+}
+
+li.videos a:hover
+
+{
+    
+    background-position: -460px -60px;
+    -webkit-transition: height 1s;
+    height: 60.8px;
+    overflow: hidden;
+}
+
+
+li.contact a
+
+{
+    width: 215px;
+    height: 60px;
+    background-position: -690px 0;
+    -webkit-box-shadow: 10px 8px 8px -8px black;
+    -moz-box-shadow: 10px 8px 8px -8px black;
+    -o-box-shadow: 10px 8px 8px -8px black;
+}
+
+li.contact a:hover
+
+{
+    
+    background-position: -690px -60px;
+    -webkit-transition: height 1s;
+    height: 60.8px;
+    overflow: hidden;
+    
+}
+
+
+
+
+
+/*artiklar på main, videos samt resp. egna sidor för artikeln */
+
+.articles
+{
+    width: 90%;
+    margin-top: 20px;
+}
+
+.articles article
+{
+    margin-bottom: 10%;
+}
+
+.articlepic
+{
+    margin-left:10%;
+    width: 80%;
+    
+}
+
+#back img
+{
+    width: 1.5%;
+}
+
+#back
+{
+    display:block;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: -10%;
+   margin-bottom: 10%;
+}
+
+#back a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 6px 8px -8px black;
+    -moz-box-shadow: 0px 6px 8px -8px black;
+    -o-box-shadow: 0px 6px 8px -8px black;
+    
+    
+}
+
+
+#back a:hover
+{
+    color: #413E3E;
+}
+
+
+/*datumet ovanför artikeln *
+
+.date
+{
+    color: #706C6C;
+}
+
+
+
+
+
+
+
+/*Sidospecifika taggar för Videos */
+
+#monthselect
+{
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+    
+}
+
+#monthselect a
+{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+#monthselect dd
+{
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+
+#monthselect dt 
+{
+    margin-bottom: 20%;
+    
+    
+}
+
+
+.videospic
+{
+    width:100%;
+}
+
+.vid
+{
+    margin-left: 10%;
+    width: 80%;
+    height: 315px;
+    text-align: center;
+    
+   
+}
+
+
+#monthselect  dd:before
+{ 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.25em 0 0.25em 0.313em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+#monthselect  dt:before
+{ 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.25em 0 0.25em 0.313em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+
+
+
+
+
+/*Sidospecifik tag för Releases */
+
+#releases
+{
+    margin-left: 5%;
+    margin-top: 15px;
+    
+}
+
+
+
+#releases span
+{
+    margin-left: 5%;
+}
+
+
+
+
+/*sidospecifika för Contact Us */
+
+
+.mailto
+{
+    width: 80%;
+}
+
+#contact
+{
+    width: 80%;
+}
+
+#contact aside
+{
+    float: right;
+    width: 10%;
+    margin-right: 5%;
+    margin-top: 15%;
+}
+
+#contacttext
+{
+    /*Margin ändrad i mobile och pad CSS:en */
+}
+
+
+
+
+/*facebooks gilla knapp på Contact Us */
+
+.fb-like
+{
+    
+    float: right;
+    margin-right: 40%;
+    width: 10%;
+    
+    
+}
+
+
+
+/*twitter knapp på Contact Us */
+
+.twitter
+{
+    width:20%;
+    margin-top: -60px;
+    margin-bottom: 15%;
+    float: left;
+    
+}
+
+
+
+
+/*Större facebook widget på Contact Us */
+
+.facebook
+{   
+    width: 1%;
+    margin-bottom: 5%;
+    float: left;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+#contact p
+{
+    margin-left: 10%;
+    
+}
+
+#contact form, label, input, textarea
+{
+    width: 80%;
+    margin-left: 7%;
+    
+}
+
+#contact form
+{
+    margin-bottom: 10%;
+}
+
+
+
+
+/*text */
+
+p
+{
+    font-size: 14px;
+}
+
+#releases h1
+{
+    font-size: 25px;
+}
+
+#releases h2
+{
+    font-size: 20px;
+}
+
+.articles p
+{
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.articles h1
+{
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: -5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.releases h1
+{
+    margin-bottom: 30px;
+    margin-top: 60px;
+    
+}
+
+.releases h2
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

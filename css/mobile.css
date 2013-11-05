@@ -1,0 +1,517 @@
+
+
+#container
+{
+    width: 100%;
+   
+}
+
+
+
+#mainhead img
+{
+   float: left;
+   background-image: url(../pics/header.gif);
+   width: 70%;
+   max-width: 560px;
+   min-width: 100px;
+ 
+-webkit-box-shadow: 10px 8px 8px -8px black;
+-moz-box-shadow: 10px 8px 8px -8px black;
+-o-box-shadow: 10px 8px 8px -8px black;
+    
+    
+}
+
+
+
+#banners
+{
+    float: right;
+    margin-bottom: 10%;
+    width: 20%;
+    margin-right: 5%;
+    
+    
+    
+    
+}
+
+
+
+.headbanner a
+{
+    width: 100%;
+    height: 300px;
+    background: url("../pics/apul2.jpg") no-repeat; 
+    margin-bottom: 10%;
+    text-indent: -9999px;
+    display: block;
+}
+
+.sidebanner1 a
+{
+    background: url("../pics/fukitol2.jpg") no-repeat;
+    width: 100%;
+    height: 300px;
+
+    display: block;
+    text-indent: -9999px;
+    
+    
+}
+
+.contactmargin
+{
+    margin-top: 50%;
+}
+
+
+
+.sidebanner2 a
+{
+    width: 100%;
+    height: 300px;
+    background: url("../pics/mcdunalds2.jpg") no-repeat;
+    text-indent: -9999px;
+    margin-top: 10%;
+
+    
+    
+    display: block;
+   
+}
+
+.sidebanner3 a
+{
+    width: 100%;
+    height: 200px;
+    background: url("../pics/najk.gif") no-repeat;
+    text-indent: -9999px;
+    margin-top: 10%;
+
+     
+      display: block;
+      
+}
+
+main
+{
+    
+    width: 70%;
+   max-width: 660px;
+   min-width: 100px;
+
+    background-color: #EDEBEB;
+    float: left;
+    
+    -webkit-box-shadow: 10px 8px 8px -8px black;
+    -moz-box-shadow: 10px 8px 8px -8px black;
+    -o-box-shadow: 10px 8px 8px -8px black;
+}
+
+nav
+{
+    float: left;
+    margin-bottom: -2%;
+    width: 70%;
+    
+   max-width: 660px;
+   min-width: 100px;
+
+    margin-top: -10px;
+    padding: 0 0 10px 0;
+ 
+   
+}
+
+nav ul
+{
+    margin-left: -9%;
+    width:100%;
+    float: left;
+    margin-left: -7%;
+}
+ 
+
+/*sprites */
+
+li.sprite
+{
+    float: left;
+    display: inline;
+    overflow: hidden;
+   
+}
+
+
+
+li.sprite a
+{
+    display: block;
+    text-indent: -9999px;
+    background: url("../pics/sprite9.jpg") 0 0 no-repeat;
+    float: left;
+    
+}
+
+
+
+li.home a
+{
+    width: 115px;
+    min-width: 10px;
+    height: 30px;
+    background-position: top left;
+    -webkit-box-shadow: 10px 8px 8px -8px black;
+    -moz-box-shadow: 10px 8px 8px -8px black;
+    -o-box-shadow: 10px 8px 8px -8px black;
+}
+
+li.home a:hover
+{
+    background-position: 0 -30px;
+    -webkit-transition: height 2s;
+    height: 30.8px;
+    overflow: hidden;
+}
+
+li.releases a
+
+{
+    width: 115px;
+    height: 30px;
+    background-position: -115px 0;
+    -webkit-box-shadow: 10px 8px 8px -8px black;
+    -moz-box-shadow: 10px 8px 8px -8px black;
+    -o-box-shadow: 10px 8px 8px -8px black;
+}
+
+li.releases a:hover
+
+{
+    
+    background-position: -115px -30px;
+    -webkit-transition: height 1s;
+    height: 30.8px;
+    overflow: hidden;
+}
+
+li.videos a
+
+{
+    width: 115px;
+    height: 30px;
+    background-position: -230px 0;
+     -webkit-box-shadow: 10px 8px 8px -8px black;
+    -moz-box-shadow: 10px 8px 8px -8px black;
+    -o-box-shadow: 10px 8px 8px -8px black;
+}
+
+li.videos a:hover
+
+{
+    
+    background-position: -230px -30px;
+    -webkit-transition: height 1s;
+    width: 115px;
+    height: 30.8px;
+    overflow: hidden;
+}
+
+
+li.contact a
+
+{
+    width: 115px;
+    height: 30px;
+    background-position: -345px 0;
+    -webkit-box-shadow: 10px 8px 8px -8px black;
+    -moz-box-shadow: 10px 8px 8px -8px black;
+    -o-box-shadow: 10px 8px 8px -8px black;
+}
+
+li.contact a:hover
+
+{
+    
+    background-position: -345px -30px;
+    -webkit-transition: height 1s;
+    width:115px;
+    height: 30.8px;
+    overflow: hidden;
+    
+}
+
+.articles
+{
+    width: 90%;
+    margin-top: 20px;
+}
+
+.articles article
+{
+    margin-bottom: 10%;
+}
+
+#monthselect
+{
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+    
+}
+
+#monthselect a
+{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+#monthselect dd
+{
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+
+#monthselect dt 
+{
+    margin-bottom: 20%;
+    
+    
+}
+
+
+
+#monthselect  dd:before
+{ 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.25em 0 0.25em 0.313em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+#monthselect  dt:before
+{ 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.25em 0 0.25em 0.313em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+
+#releases
+{
+    margin-left: 5%;
+    margin-top: 15px;
+    
+}
+
+p
+{
+    font-size: 14px;
+}
+
+#releases h1
+{
+    font-size: 25px;
+}
+
+#releases h2
+{
+    font-size: 20px;
+}
+
+#releases span
+{
+    margin-left: 5%;
+}
+
+.mailto
+{
+    width: 80%;
+}
+
+#contact
+{
+    width: 80%;
+}
+
+#contact aside
+{
+    float: left;
+    width: 10%;
+    margin-top: 40%;
+    margin-left: 30%;
+    margin-bottom: 20%;
+}
+
+#contacttext
+{
+    margin-top:150%;
+}
+
+
+.fb-like
+{
+    
+    float: right;
+    margin-right: 40%;
+    width: 10%;
+    
+    
+}
+
+.twitter
+{
+    width:20%;
+    margin-top: -60px;
+    margin-bottom: 15%;
+    float: left;
+    
+}
+
+.facebook
+{   
+    width: 1%;
+    margin-bottom: 5%;
+    float: left;
+   
+    
+}
+
+.articlepic
+{
+    margin-left:10%;
+    width: 80%;
+    
+}
+
+#back img
+{
+    width: 1.5%;
+}
+
+#back
+{
+    display:block;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: -10%;
+   margin-bottom: 10%;
+}
+
+#back a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 6px 8px -8px black;
+    -moz-box-shadow: 0px 6px 8px -8px black;
+    -o-box-shadow: 0px 6px 8px -8px black;
+    
+    
+}
+
+#back a:hover
+{
+    color: #413E3E;
+}
+
+.articles p
+{
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.articles h1
+{
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: -5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#releases h1
+{
+    margin-bottom: 30px;
+    margin-top: 60px;
+    
+}
+
+#releases h2
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.date
+{
+    color: #706C6C;
+}
+
+.videospic
+{
+    width:100%;
+}
+
+.vid
+{
+    margin-left: 10%;
+    width: 80%;
+    height: 5%;
+    height: 315px;
+    text-align: center;
+    
+   
+}
+
+.zombie
+{
+    width: 100%;
+}
+
+
+
+#contact p
+{
+    margin-left: 10%;
+    
+}
+
+#contact form, label, input, textarea
+{
+    width: 80%;
+    margin-left: 7%;
+    
+}
+
+#contact form
+{
+    margin-bottom: 10%;
+}
+
+h1
+{
+    font-size: 15px;
+}
+
+h2
+{ font size: 12px;}

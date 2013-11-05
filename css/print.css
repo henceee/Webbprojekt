@@ -1,0 +1,11 @@
+
+header, #mainhead img, nav, nav ul li a,img, aside, #banners, #headbanner, #sidebanner1, #sidebanner2, #sidebanner3, #back img
+{
+    text-indent: -99999;
+    display: none;
+}
+
+#headbanner a
+{
+    color: white;
+}
